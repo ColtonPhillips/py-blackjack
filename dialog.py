@@ -14,7 +14,24 @@ Like it not, that's what's in store for you today.
 
 TABLE_INTRO = """
 
-Welcome to the table i say something clever before we start playing, now dont I!
+"Ahh! Stranger! I see you're all hot and bothered to play a nice game of
+Blackjack. Sweet! I love that game."
+
+"Alright, I will now construct a deck of cards!"
+
+"""
+
+HAND_INTRO = """
+
+"Nice! This deck of cards is flippin' sweet. So rad. Check it out."
+
+"Alright, alright. Calm down. Here, you can have a \"Hand\" of cards as well."
+
+"""
+
+GAME_INTRO = """
+
+Okay awesome! Now you have a hand of cards. I can't see them, only you can.
 
 """
 

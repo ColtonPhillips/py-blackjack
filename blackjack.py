@@ -1,11 +1,14 @@
 import dialog
 
+def chince():
+    raw_input("Mash your keyboard to continue. ")
+
 class Card:
     suits = ['Clubs', 'Diamonds', 'Hearts', 'Spades']   
     def __init__(self):
         # Whatever. Default to this.
         self.value = 0
-        self.suit = suits[1]
+        self.suit = self.suits[1]
         
     @staticmethod
     def random_card():
@@ -20,7 +23,6 @@ class Deck:
         self.cards = []
         for i in range(52):
             self.cards.append(Card.random_card())
-            print card.value
 
     def deal_card(self):
         pass
@@ -31,10 +33,14 @@ class Hand:
 
 def game_loop():
     print dialog.TABLE_INTRO
+    deck = Deck()
+    chince()
+    print dialog.HAND_INTRO
+    hand = Hand()
+    chince()
 
     active_game = True
     while active_game: 
-        deck = Deck()
         active_game = False
 
 def main():
